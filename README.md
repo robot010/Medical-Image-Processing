@@ -22,12 +22,18 @@ It mainly contains the following parts:
   
   ## Keypoints of Vertebrea Segmentation project
   
-  - Preprocessing raw spine dataset (About 20GB), you can check out the sample spine CT scan before and after preprocessing below. For full detail, please refers to our report [here](https://github.com/Bato803/Medical-Image-Processing/blob/master/egpaper_final.pdf). 
-    
+- Preprocessing raw spine dataset (About 20GB), you can check out the sample spine CT scan before and after preprocessing below. 
+
+The preprocessing techniques we have explored include: [Histogram Equalization](https://en.wikipedia.org/wiki/Histogram_equalization), [Adaptive Histogram Equalization](https://en.wikipedia.org/wiki/Adaptive_histogram_equalization) and [Constrast Stretching](http://what-when-how.com/embedded-image-processing-on-the-tms320c6000-dsp/contrast-stretching-image-processing/)
+
   <img src="https://user-images.githubusercontent.com/17235054/31979465-dc29dfc2-b914-11e7-8d3f-3abe507bb7ca.png" width=300
   height=100>
   
   <img src="https://user-images.githubusercontent.com/17235054/31979468-e33bf160-b914-11e7-924d-e4544f300839.png" width=200 height=300>
+  
+  For full detail, please refers to our report [here](https://github.com/Bato803/Medical-Image-Processing/blob/master/egpaper_final.pdf). 
+    
+
  
  - Prepared the lmdb file so that the data can be directly fed into Convolutional Neural Network. 
  
