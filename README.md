@@ -24,7 +24,7 @@ It mainly contains the following parts:
   
 - Preprocessing raw spine dataset (About 20GB), you can check out the sample spine CT scan before and after preprocessing below. 
 
-The preprocessing techniques we have explored include: [Histogram Equalization](https://en.wikipedia.org/wiki/Histogram_equalization), [Adaptive Histogram Equalization](https://en.wikipedia.org/wiki/Adaptive_histogram_equalization) and [Constrast Stretching](http://what-when-how.com/embedded-image-processing-on-the-tms320c6000-dsp/contrast-stretching-image-processing/)
+- The preprocessing techniques we have explored include: [Histogram Equalization](https://en.wikipedia.org/wiki/Histogram_equalization), [Adaptive Histogram Equalization](https://en.wikipedia.org/wiki/Adaptive_histogram_equalization) and [Constrast Stretching](http://what-when-how.com/embedded-image-processing-on-the-tms320c6000-dsp/contrast-stretching-image-processing/)
 
   <img src="https://user-images.githubusercontent.com/17235054/31979465-dc29dfc2-b914-11e7-8d3f-3abe507bb7ca.png" width=300
   height=100>
